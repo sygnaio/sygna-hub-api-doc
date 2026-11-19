@@ -43,7 +43,7 @@ services:
   # Remeber to update nginx.conf for http / https connection
   #
   # nginx:
-  #   image: nginx
+  #   image: nginx:1.30.7-alpine
   #   restart: unless-stopped
   #   ports:
   #     - 8000:8000
